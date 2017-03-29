@@ -134,7 +134,7 @@ class WeatherVC: UIViewController, UITableViewDelegate, UITableViewDataSource, C
         dateLabel.text = currentWeather.date
         temperatureLabel.text = String(currentWeather.currentTemp)
         print("\n***updateMainUI() CONSOLE OUTPUT***")
-        print(temperatureLabel.text)
+        print(temperatureLabel.text!)
         print(String(currentWeather.currentTemp))
         weatherTypeLabel.text = currentWeather.weatherType
         locationLabel.text = currentWeather.cityName

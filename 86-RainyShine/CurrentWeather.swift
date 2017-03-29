@@ -103,7 +103,7 @@ class CurrentWeather {
         //  let kelvinToFahrenheitPreDivision = (currentTemperature * 9/5) - 459.67
         //  let kelvinToFahrenheit = Double(round(10 * kelvinToFahrenheit/10))        
         
-        var fahrenheitTemp = (kelvinTemp * 9/5) - 459.67
+        var fahrenheitTemp = (kelvinTemp * 9 / 5) - 459.67
         fahrenheitTemp = Double(round(fahrenheitTemp))
         return fahrenheitTemp
     }
